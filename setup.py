@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 with open("LICENSE.txt", "r", encoding='utf-8') as fh:
     license_from_file = fh.read()
 setup(
-    name='DemoScene-MrMarvel',
+    name='demoscene-mrmarvel',
     version='0.1.0',
     packages=find_packages(where='src'),  # ,
     package_dir={'': 'src'},
